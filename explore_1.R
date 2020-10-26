@@ -36,6 +36,16 @@ data("hurr_tracks")
 
 data_ht <- as.data.frame(hurr_tracks)
 
+data("closest_dist")
+
+### couldn't you use this data to reduce the number of states you put on 
+### that map you make?
+
+head(closest_dist)
+
+
+
+
 
 #####Data is located in the "geanders" definitions from 
 #####https://rdrr.io/github/geanders/hurricaneexposuredata/src/R/data.R
